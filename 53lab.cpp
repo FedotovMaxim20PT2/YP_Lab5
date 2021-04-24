@@ -27,6 +27,6 @@ int main(int argc, char **argv)
         }
     }
     f.close();
-    cout << "Ñðåäíåå àðèôìåòè÷åñêîå: " << sum/k << endl;
+    cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ: " << sum/k << endl;
     return 0;
 }
