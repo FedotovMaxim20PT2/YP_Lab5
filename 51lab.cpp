@@ -7,19 +7,19 @@ int main(int argc, char **argv)
     int msv[10];
     int a;
     int i;
-    cout << "Ââåäèòå 10 öåëûõ ÷èñåë" << endl;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ 10 Ñ†ÐµÐ»Ñ‹Ñ… Ñ‡Ð¸ÑÐµÐ»" << endl;
     for (i = 0; i < 10; i++) {
         cin >> a;
         if (cin.good()) {
             msv[i] = a;
         } else {
-            cout << "Áûëî ââåäåíî íå öåëîå ÷èñëî" << endl;
+            cout << "Ð‘Ñ‹Ð»Ð¾ Ð²Ð²ÐµÐ´ÐµÐ½Ð¾ Ð½Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾" << endl;
             break;
         }
 
     }
     if (i > 9) {
-        cout << "Âûâîä ñòîëáöîâ öåëûõ ÷èñåë" << endl;
+        cout << "Ð’Ñ‹Ð²Ð¾Ð´ ÑÑ‚Ð¾Ð»Ð±Ñ†Ð¾Ð² Ñ†ÐµÐ»Ñ‹Ñ… Ñ‡Ð¸ÑÐµÐ»" << endl;
         for (int i = 0; i < 10; i++) {
             cout << setw(5) << oct << msv[i] << setw(5) << dec << msv[i] << setw(5) << hex << msv[i] << endl;
         }
