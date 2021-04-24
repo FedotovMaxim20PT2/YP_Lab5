@@ -25,13 +25,13 @@ void tabl_umn(int sistema)
             cout<<endl;
         }
     } else {
-        cout << "Òàáëèöà íå ïîääåğæèâàåòñÿ" << endl;
+        cout << "Ğ¢Ğ°Ğ±Ğ»Ğ¸Ñ†Ğ° Ğ½Ğµ Ğ¿Ğ¾Ğ´Ğ´ĞµÑ€Ğ¶Ğ¸Ğ²Ğ°ĞµÑ‚ÑÑ" << endl;
     }
 }
 
 int main(int argc, char **argv)
 {
-    cout << "Ââåäèòå ñèñòåìó ñ÷èñëåíèÿ" << endl;
+    cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ÑĞ¸ÑÑ‚ĞµĞ¼Ñƒ ÑÑ‡Ğ¸ÑĞ»ĞµĞ½Ğ¸Ñ" << endl;
     int sistema;
     cin >> sistema;
     tabl_umn(sistema);
